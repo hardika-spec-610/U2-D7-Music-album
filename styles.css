@@ -97,4 +97,12 @@ h6 {
   .text-align-right {
     text-align: center;
   }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card {
+    margin-bottom: 20px;
+  }
 }
