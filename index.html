@@ -625,102 +625,102 @@
           <div class="row margin-inline">
             <img
               src="./assets/cover1.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover2.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover3.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover4.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover5.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover6.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover7.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover8.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover9.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover10.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover1.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover2.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover3.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover6.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover5.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover10.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover7.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover8.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover9.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
             <img
               src="./assets/cover4.jfif"
-              class="p-0 col-xl-3 col-md-4 col-sm-6"
+              class="p-0 col-xl-3 col-md-4 col-sm-6 count-album"
               alt="VH1"
             />
           </div>
@@ -729,11 +729,15 @@
       <footer class="pb-3">
         <hr />
         <div class="container">
-          <div>
-            <span>Made by Hardika</span>
+          <div class="row justify-content-center align-items-center">
+            <span class="mr-3">Made by Hardika</span>
             <a href="https://github.com/hardika-spec-610/U2-D7-Music-album">
               <button class="signup-btn mr-4" type="button">GitHub</button></a
             >
+            <div class="album-counter d-flex">
+              <p class="mb-0">Album Counter:</p>
+              <p class="mb-0" id="album-counter"></p>
+            </div>
           </div>
         </div>
       </footer>
@@ -748,5 +752,21 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function albumCounter() {
+        let favAlbums = document.getElementsByClassName("cover-img");
+        let hallOfShame = document.getElementsByClassName("img-thumbnail");
+        let tapestry = document.getElementsByClassName("count-album");
+        // console.log(favAlbums.length);
+        // console.log(hallOfShame.length);
+        // console.log(tapestry.length);
+        let albums = favAlbums.length + hallOfShame.length + tapestry.length;
+
+        let counter = document.getElementById("album-counter");
+        counter.innerText = albums;
+      }
+
+      albumCounter();
+    </script>
   </body>
 </html>
