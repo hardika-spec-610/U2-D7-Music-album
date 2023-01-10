@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-body: "Red Hat Display", sans-serif;
+  --font-color: rgba(0, 0, 0, 1);
+}
+body {
+  font-family: var(--font-body);
+  margin: 0;
+  background-color: #f5f4f8;
+}
+.text-align-right {
+  text-align: right;
+}
+.signup-btn {
+  position: relative;
+  font-weight: 600;
+  height: 40px;
+  padding: 12px 20px;
+  outline: none;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.nav-link {
+  font-weight: 500;
+}
+.signup-btn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 7px;
+  left: 7px;
+  height: 100%;
+  background-color: rgba(233, 103, 119, 0.8);
+  z-index: -1;
+  transition: all 0.35s;
+  border-radius: inherit;
+}
+
+.signup-btn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+.bg-img {
+  background-image: url(./assets/hero-image.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.hero-block {
+  padding-block: 4em;
+}
+.popular-albums-sec {
+  margin-bottom: 50px;
+}
+.card {
+  background-color: transparent;
+  border: none;
+}
+.cover-img {
+  width: 100%;
+}
+h6 {
+  margin-bottom: 0;
+}
+.album-artist {
+  font-size: 14px;
+}
+.album-duration {
+  font-size: 14px;
+}
+.play-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-align-right {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  .text-align-right {
+    text-align: center;
+  }
+}
