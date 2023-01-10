@@ -224,13 +224,6 @@
                     src="./assets/m1.jfif"
                     alt="album image"
                   />
-                  <img
-                    class="play-btn"
-                    src="./assets/play-circle.svg"
-                    alt="play button"
-                    width="30px"
-                    height="30px"
-                  />
                 </div>
                 <div class="d-flex justify-content-between mt-2">
                   <div class="text-left pb-2">
@@ -262,13 +255,6 @@
                     class="cover-img"
                     src="./assets/m2.jfif"
                     alt="album image"
-                  />
-                  <img
-                    class="play-btn"
-                    src="./assets/play-circle.svg"
-                    alt="play button"
-                    width="30px"
-                    height="30px"
                   />
                 </div>
                 <div class="d-flex justify-content-between mt-2">
@@ -302,13 +288,6 @@
                     src="./assets/m3.jfif"
                     alt="album image"
                   />
-                  <img
-                    class="play-btn"
-                    src="./assets/play-circle.svg"
-                    alt="play button"
-                    width="30px"
-                    height="30px"
-                  />
                 </div>
                 <div class="d-flex justify-content-between mt-2">
                   <div class="text-left pb-2">
@@ -341,13 +320,6 @@
                     src="./assets/m4.jfif"
                     alt="album image"
                   />
-                  <img
-                    class="play-btn"
-                    src="./assets/play-circle.svg"
-                    alt="play button"
-                    width="30px"
-                    height="30px"
-                  />
                 </div>
                 <div class="d-flex justify-content-between mt-2">
                   <div class="text-left pb-2">
@@ -371,11 +343,19 @@
               aria-labelledby="pills-home-tab"
             >
               <div class="card review-card">
-                <img
-                  class="card-img-top"
-                  src="./assets/m1.jfif"
-                  alt="Card image cap"
-                />
+                <a
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./assets/m1.jfif"
+                    alt="Card image cap"
+                  />
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">International Top 10</h5>
                   <p class="card-text"><b>Artist: </b>Amit Trivedi</p>
@@ -384,37 +364,39 @@
                   </p>
                   <p class="card-text"><b>Length: </b>24:00</p>
                 </div>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Name</th>
-                      <th scope="col">Duration</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Shehnaiyan</td>
-                      <td>3:34</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Dil Na Tod</td>
-                      <td>1:42</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Jaan Leke Gayi</td>
-                      <td>2:36</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Rooh-E-Dari</td>
-                      <td>3:47</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="collapse" id="collapseExample">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Shehnaiyan</td>
+                        <td>3:34</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dil Na Tod</td>
+                        <td>1:42</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Jaan Leke Gayi</td>
+                        <td>3.45</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Rooh-E-Dari</td>
+                        <td>2:10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
             <div
@@ -424,11 +406,19 @@
               aria-labelledby="pills-profile-tab"
             >
               <div class="card review-card">
-                <img
-                  class="card-img-top"
-                  src="./assets/m2.jfif"
-                  alt="Card image cap"
-                />
+                <a
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./assets/m2.jfif"
+                    alt="Card image cap"
+                  />
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">International Top 10</h5>
                   <p class="card-text"><b>Artist: </b>Amit Trivedi</p>
@@ -437,37 +427,39 @@
                   </p>
                   <p class="card-text"><b>Length: </b>24:00</p>
                 </div>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Name</th>
-                      <th scope="col">Duration</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Shehnaiyan</td>
-                      <td>3:34</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Dil Na Tod</td>
-                      <td>1:42</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Jaan Leke Gayi</td>
-                      <td>2:36</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Rooh-E-Dari</td>
-                      <td>3:47</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="collapse" id="collapseExample">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Shehnaiyan</td>
+                        <td>3:34</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dil Na Tod</td>
+                        <td>1:42</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Jaan Leke Gayi</td>
+                        <td>3.45</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Rooh-E-Dari</td>
+                        <td>2:10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
             <div
@@ -477,11 +469,20 @@
               aria-labelledby="pills-contact-tab"
             >
               <div class="card review-card">
-                <img
-                  class="card-img-top"
-                  src="./assets/m3.jfif"
-                  alt="Card image cap"
-                />
+                <a
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./assets/m3.jfif"
+                    alt="Card image cap"
+                  />
+                </a>
+
                 <div class="card-body">
                   <h5 class="card-title">International Top 10</h5>
                   <p class="card-text"><b>Artist: </b>Amit Trivedi</p>
@@ -490,37 +491,39 @@
                   </p>
                   <p class="card-text"><b>Length: </b>24:00</p>
                 </div>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Name</th>
-                      <th scope="col">Duration</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Shehnaiyan</td>
-                      <td>3:34</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Dil Na Tod</td>
-                      <td>1:42</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Jaan Leke Gayi</td>
-                      <td>2:36</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Rooh-E-Dari</td>
-                      <td>3:47</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="collapse" id="collapseExample">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Shehnaiyan</td>
+                        <td>3:00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dil Na Tod</td>
+                        <td>2:30</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Jaan Leke Gayi</td>
+                        <td>3.45</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Rooh-E-Dari</td>
+                        <td>2:10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
             <div
@@ -530,11 +533,19 @@
               aria-labelledby="pills-service-tab"
             >
               <div class="card review-card">
-                <img
-                  class="card-img-top"
-                  src="./assets/m4.jfif"
-                  alt="Card image cap"
-                />
+                <a
+                  data-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <img
+                    class="card-img-top"
+                    src="./assets/m4.jfif"
+                    alt="Card image cap"
+                  />
+                </a>
                 <div class="card-body">
                   <h5 class="card-title">International Top 10</h5>
                   <p class="card-text"><b>Artist: </b>Amit Trivedi</p>
@@ -543,37 +554,39 @@
                   </p>
                   <p class="card-text"><b>Length: </b>24:00</p>
                 </div>
-                <table class="table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Name</th>
-                      <th scope="col">Duration</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Shehnaiyan</td>
-                      <td>3:34</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Dil Na Tod</td>
-                      <td>1:42</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Jaan Leke Gayi</td>
-                      <td>2:36</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4</th>
-                      <td>Rooh-E-Dari</td>
-                      <td>3:47</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="collapse" id="collapseExample">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Shehnaiyan</td>
+                        <td>3:34</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Dil Na Tod</td>
+                        <td>1:42</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Jaan Leke Gayi</td>
+                        <td>3.45</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Rooh-E-Dari</td>
+                        <td>2:10</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -676,7 +689,7 @@
               alt="VH1"
             />
             <img
-              src="./assets/cover4.jfif"
+              src="./assets/cover6.jfif"
               class="p-0 col-xl-3 col-md-4 col-sm-6"
               alt="VH1"
             />
@@ -686,7 +699,7 @@
               alt="VH1"
             />
             <img
-              src="./assets/cover6.jfif"
+              src="./assets/cover10.jfif"
               class="p-0 col-xl-3 col-md-4 col-sm-6"
               alt="VH1"
             />
@@ -706,7 +719,7 @@
               alt="VH1"
             />
             <img
-              src="./assets/cover10.jfif"
+              src="./assets/cover4.jfif"
               class="p-0 col-xl-3 col-md-4 col-sm-6"
               alt="VH1"
             />
