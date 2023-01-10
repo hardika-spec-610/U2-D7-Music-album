@@ -109,6 +109,10 @@ button {
   margin-right: 0;
   margin-left: 0;
 }
+.github-link {
+  background-color: rgba(233, 103, 119, 0.8);
+  outline: none;
+}
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1400px;
