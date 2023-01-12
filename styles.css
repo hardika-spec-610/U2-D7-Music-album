@@ -54,9 +54,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
+  animation: fadeIn 2s;
 }
 .hero-block {
   padding-block: 4em;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .hero-img {
   width: 450px;
@@ -112,6 +121,16 @@ button {
 .github-link {
   background-color: rgba(233, 103, 119, 0.8);
   outline: none;
+}
+.nav-pills .nav-link {
+  border: 1px solid #ccc;
+}
+.add-track {
+  transition: all 0.3s linear;
+}
+.add-track:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-8px);
 }
 @media screen and (min-width: 1200px) {
   .container {
