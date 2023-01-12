@@ -132,6 +132,13 @@ button {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   transform: translateY(-8px);
 }
+.btn-danger {
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.track-item:hover .btn-danger {
+  opacity: 1;
+}
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1400px;

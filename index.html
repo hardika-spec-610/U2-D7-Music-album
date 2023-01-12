@@ -397,7 +397,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -412,7 +411,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -427,7 +425,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -442,7 +439,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -470,7 +466,7 @@
                       <div class="modal-content">
                         <div class="modal-header">
                           <h5 class="modal-title" id="exampleModalLabel">
-                            New message
+                            Add track
                           </h5>
                           <button
                             type="button"
@@ -482,7 +478,7 @@
                           </button>
                         </div>
                         <div class="modal-body">
-                          <form>
+                          <!-- <form>
                             <div class="row">
                               <div class="col">
                                 <input
@@ -515,7 +511,67 @@
                                 />
                               </div>
                             </div>
-                          </form>
+                          </form> -->
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span
+                                class="input-group-text"
+                                id="inputGroup-sizing-default"
+                                >Track number</span
+                              >
+                            </div>
+                            <input
+                              type="number"
+                              class="form-control"
+                              aria-label="Sizing example input"
+                              aria-describedby="inputGroup-sizing-default"
+                            />
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span
+                                class="input-group-text"
+                                id="inputGroup-sizing-default"
+                                >Track title</span
+                              >
+                            </div>
+                            <input
+                              type="text"
+                              class="form-control"
+                              aria-label="Sizing example input"
+                              aria-describedby="inputGroup-sizing-default"
+                            />
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span
+                                class="input-group-text"
+                                id="inputGroup-sizing-default"
+                                >Artist Name</span
+                              >
+                            </div>
+                            <input
+                              type="text"
+                              class="form-control"
+                              aria-label="Sizing example input"
+                              aria-describedby="inputGroup-sizing-default"
+                            />
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span
+                                class="input-group-text"
+                                id="inputGroup-sizing-default"
+                                >Track duration</span
+                              >
+                            </div>
+                            <input
+                              type="time"
+                              class="form-control"
+                              aria-label="Sizing example input"
+                              aria-describedby="inputGroup-sizing-default"
+                            />
+                          </div>
                         </div>
                         <div class="modal-footer">
                           <button
@@ -526,7 +582,7 @@
                             Close
                           </button>
                           <button type="button" class="btn btn-primary">
-                            Send message
+                            Add track
                           </button>
                         </div>
                       </div>
@@ -584,7 +640,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -599,7 +654,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -614,7 +668,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -629,7 +682,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -691,7 +743,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -706,7 +757,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -721,7 +771,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -736,7 +785,6 @@
                           <button
                             type="button"
                             class="btn btn-danger py-0 px-1"
-                            onclick="deleteTrackItem()"
                           >
                             Delete
                           </button>
@@ -1030,30 +1078,18 @@
       }
 
       albumCounter();
-      function deleteTrackItem() {
-        // let trackItem = document.getElementsByClassName("track-item");
-        // let deleteItem = document.getElementsByClassName("btn-danger");
-        // console.log(deleteItem);
-        // console.log(trackItem);
-        // for (let i = 0; i < deleteItem.length; i++) {
-        //   trackItem[i].setAttribute("id", [i]);
-        //   let tracklistId = document.getElementById([i]);
-        //   let idAtt = tracklistId.getAttribute("id");
-        //   console.log(deleteItem[i]);
-        //   console.log(trackItem[i]);
-        //   console.log("id", tracklistId);
-        //   console.log("idnum", idAtt);
-        //   deleteItem[i].addEventListener("click", function () {
-        //     if (deleteItem[i] == idAtt) {
-        //       trackItem[i].remove();
-        //     }
-        //   });
-        // }
-        let tableData = document.getElementsByTagName("table")[0];
-        console.log(tableData);
-        tableData.deleteRow(0);
+      // function deleteTrackItem() {
+      //   let tableData = document.getElementsByTagName("table")[0];
+      //   console.log(tableData);
+      //   tableData.deleteRow(0);
+      // }
+      // deleteTrackItem();
+      let deleteItem = document.getElementsByClassName("btn-danger");
+      for (let i = 0; i < deleteItem.length; i++) {
+        deleteItem[i].addEventListener("click", function () {
+          this.parentElement.parentElement.remove();
+        });
       }
-      deleteTrackItem();
     </script>
   </body>
 </html>
